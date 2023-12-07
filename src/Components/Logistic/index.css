@@ -1,0 +1,39 @@
+.head1{
+     margin: 40px 20px;
+     display: flex;
+     font-size: 1.5rem;
+     flex-direction: row;
+     align-items: center;
+}
+.blog .course{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 20px;
+}
+.blog{
+    margin: 20px 50px;
+     display: flex;
+     flex-direction: column;
+}
+
+.blog .leadr4{
+    
+    display: flex;
+    flex-direction:row;
+}
+.blog .leadr4 .inplbl{
+    font-size: 0.7rem;
+    display: block;
+    width: 150px;
+}
+.blog .leadr4  #FN1{
+    width: 150px;
+    height: 30px;
+}
+.rt{
+    display: block;
+   align-items: center;
+    align-self: center;
+    justify-content: space-around;
+}

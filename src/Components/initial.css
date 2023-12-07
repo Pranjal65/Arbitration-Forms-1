@@ -1,0 +1,82 @@
+.supply-chain-diagram {
+    width: 100%;
+    height: 100%;
+    margin: 100px 0px;
+  }
+  .supply-chain-diagram .buttons{
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        align-items: center;
+  }
+  .supply-chain-diagram .buttons .btn{
+    height: 30px;
+    width: 80px;
+
+  }
+  .supply-chain-diagram .buttons .btn:hover{
+    cursor: pointer;
+    background-color: rgb(106, 181, 206);
+
+  }
+  .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stepsd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .step1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px ;
+    cursor: pointer;
+    border: 2px solid #141414;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+  }
+  .step{
+    cursor: pointer;
+  }
+ 
+  
+  .step.active , .step1.active{
+    color: rgb(106, 181, 206);
+  }
+  .step1.active{
+    border: 2px solid rgb(106, 181, 206);
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  .steps .line{
+    background-color: black;
+    height: 1.7px;
+    width: 280px;
+    padding: 0;
+    margin: 0;
+   text-decoration: none;
+  }
+ .steps .line.active{
+     height: 1.7px;
+     background-color: rgb(106, 181, 206);
+    width: 280px;
+    padding: 0;
+    margin: 0;
+
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  
